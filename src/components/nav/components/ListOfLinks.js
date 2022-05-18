@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 export default function ListOfLinks() {
   const [show, setShow] = useState("hidden");
@@ -16,8 +17,12 @@ export default function ListOfLinks() {
       </p>
       <div className={"md:block mt-6 md:mt-0 " + show}>
         <ul className="md:flex md:space-x-12 text-xl">
-          <li>Home</li>
-          <li>All Products</li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/">All Products</Link>
+          </li>
           <li>About us</li>
         </ul>
       </div>
