@@ -1,11 +1,10 @@
 import "./App.css";
-import Home from "./pages/Home";
 import Nav from "./components/nav/Nav";
-import { Outlet, Routes } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App min-h-screen bg-red-100">
+    <div className="App min-h-screen">
       <Nav></Nav>
       <Outlet></Outlet>
     </div>

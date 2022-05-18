@@ -4,7 +4,7 @@ import SubCategory from "./SubCategory";
 
 export default function Categories() {
   return (
-    <div className="grid md:text-left text-center md:grid-cols-4 bg-red-900 text-white">
+    <div className="grid md:text-left text-center md:grid-cols-4 bg-red-900 text-white py-10 md:py-0">
       <div className="p-4">
         <p className="text-xl">Categories</p>
         <ul className="mt-4">

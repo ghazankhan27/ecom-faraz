@@ -7,7 +7,7 @@ export default function ProductCard({ name, price, description, img }) {
         {name}
       </p>
       <div className="flex items-center w-full justify-center bg-slate-900">
-        <img className="h-56 bg-red-900" alt="product image" src={img}></img>
+        <img className="h-56 bg-red-900" alt="product" src={img}></img>
       </div>
 
       <div className="flex flex-col items-center justify-center p-2 px-4 text-xl bg-slate-700 text-white w-full h-full text-center">

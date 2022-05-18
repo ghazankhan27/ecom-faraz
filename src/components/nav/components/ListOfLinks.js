@@ -10,6 +10,10 @@ export default function ListOfLinks() {
     else setShow("hidden");
   };
 
+  const hideMenuAfterLink = () => {
+    setShow("hidden");
+  };
+
   return (
     <div className="flex flex-col items-end text-right">
       <p onClick={handleClick} className="text-2xl md:hidden">
@@ -17,13 +21,13 @@ export default function ListOfLinks() {
       </p>
       <div className={"md:block mt-6 md:mt-0 " + show}>
         <ul className="md:flex md:space-x-12 text-xl">
-          <li>
+          <li onClick={hideMenuAfterLink}>
             <Link to="/">Home</Link>
           </li>
-          <li>
+          <li onClick={hideMenuAfterLink}>
             <Link to="/">All Products</Link>
           </li>
-          <li>About us</li>
+          <li onClick={hideMenuAfterLink}>About us</li>
         </ul>
       </div>
     </div>

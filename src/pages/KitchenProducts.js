@@ -50,11 +50,12 @@ export default function KitchenProducts() {
   return (
     <div className="py-8 px-10">
       <p className="text-center text-3xl text-neutral-700">
-        Choose from our selection of women's products
+        Choose from our selection of Kitchen products
       </p>
-      <div className="grid lg:grid-cols-4 pt-10 lg:gap-12 md:gap-4 md:grid-cols-2">
-        {items.map((item) => (
+      <div className="gap-6 grid lg:grid-cols-4 pt-10 lg:gap-12 md:gap-4 md:grid-cols-2">
+        {items.map((item, index) => (
           <ProductCard
+            key={index}
             name={item.name}
             description={item.description}
             price={item.price}

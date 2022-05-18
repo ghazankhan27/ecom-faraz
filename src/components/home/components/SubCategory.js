@@ -18,22 +18,18 @@ export default function SubCategory({ title, list }) {
           {title}
         </p>
       ) : (
-        <a href="#">
-          <p
-            className="hover:underline cursor-pointer select-none"
-            onClick={clickHandler}
-          >
-            {title}
-          </p>
-        </a>
+        <p
+          className="hover:underline cursor-pointer select-none"
+          onClick={clickHandler}
+        >
+          {title}
+        </p>
       )}
       {list.length > 0 && (
         <ul className={"list-inside list-decimal text-sm indent-4 " + show}>
           {list.map((item, index) => (
             <li key={index}>
-              <a className="hover:underline" href="#">
-                {item}
-              </a>
+              <p className="hover:underline">{item}</p>
             </li>
           ))}
         </ul>
