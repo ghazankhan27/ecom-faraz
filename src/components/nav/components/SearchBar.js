@@ -2,9 +2,9 @@ import React from "react";
 
 export default function SearchBar() {
   return (
-    <div className="flex flex-col space-y-1 items-center md:flex-row md:items-start md:space-x-2">
+    <div className="flex flex-col space-y-1 items-center lg:flex-row lg:items-start md:space-x-2">
       <input
-        className="p-2 rounded text-black"
+        className="hidden md:block p-2 rounded text-black"
         type="text"
         placeholder="Search keywords"
       ></input>

@@ -5,16 +5,16 @@ export default function ListOfLinks() {
   const [show, setShow] = useState("hidden");
 
   const handleClick = () => {
-    if (show == "hidden") setShow("");
+    if (show === "hidden") setShow("");
     else setShow("hidden");
   };
 
   return (
     <div className="flex flex-col items-end text-right">
-      <p onClick={handleClick} className="text-2xl pt-3 md:hidden">
+      <p onClick={handleClick} className="text-2xl md:hidden">
         <AiOutlineMenu></AiOutlineMenu>
       </p>
-      <div className={"md:block " + show}>
+      <div className={"md:block mt-6 md:mt-0 " + show}>
         <ul className="md:flex md:space-x-12 text-xl">
           <li>Home</li>
           <li>All Products</li>
