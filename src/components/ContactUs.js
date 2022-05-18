@@ -41,7 +41,7 @@ export default function ContactUs() {
             <div>
               <p className="font-bold">Address</p>
               <p>
-                Onbard Teams INC 5 Great Valley PKWY STE 210 Malvern, PA19355
+                Onboard Teams INC 5 Great Valley PKWY STE 210 Malvern, PA19355
               </p>
             </div>
             <div>

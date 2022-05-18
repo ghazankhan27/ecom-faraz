@@ -1,6 +1,6 @@
 import React from "react";
 import Categories from "./components/Categories";
-import ProductListMobile from "./components/ProductListMobile";
+import ProductListHome from "./components/ProductListHome";
 // import ProductSlider from "./components/ProductSlider";
 
 export default function Content() {
@@ -86,7 +86,7 @@ export default function Content() {
   return (
     <div className="container mx-auto px-10 py-10">
       <Categories></Categories>
-      <ProductListMobile></ProductListMobile>
+      <ProductListHome></ProductListHome>
       {/* {items.map((item) => (
         <ProductSlider item={item}></ProductSlider>
       ))} */}

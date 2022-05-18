@@ -1,7 +1,7 @@
 import React from "react";
 import ProductCard from "./ProductCard";
 
-export default function ProductListMobile() {
+export default function ProductListHome() {
   return (
     <div className="py-20">
       <p className="text-center mb-8 font-semibold text-4xl">
