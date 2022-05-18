@@ -16,7 +16,7 @@ export default function ListOfLinks() {
 
   return (
     <div className="flex flex-col items-end text-right">
-      <p onClick={handleClick} className="text-2xl md:hidden">
+      <p onClick={handleClick} className="text-2xl md:hidden mt-4">
         <AiOutlineMenu></AiOutlineMenu>
       </p>
       <div className={"md:block mt-6 md:mt-0 " + show}>

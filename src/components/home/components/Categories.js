@@ -25,7 +25,7 @@ export default function Categories() {
           <SubCategory title={"Jewelery"} list={[]}></SubCategory> */}
         </ul>
       </div>
-      <div className="col-span-3 md:flex hidden md:justify-center bg-white">
+      <div className="col-span-3 md:flex hidden md:justify-center bg-red-100">
         <img
           className="sliderImage"
           alt="primary slider"
