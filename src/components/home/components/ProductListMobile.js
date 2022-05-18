@@ -8,7 +8,7 @@ export default function ProductListMobile() {
         Choose from our list of products!
       </p>
       <hr className="bg-slate-900"></hr>
-      <div className="grid grid-cols-4 gap-8 mt-8">
+      <div className="grid md:grid-cols-4 gap-8 mt-8">
         <ProductCard
           name={"Shirts"}
           price={"Starting from $39.99"}
